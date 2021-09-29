@@ -8,7 +8,7 @@ const person = new Object();
 // 3. object inherit (উত্তরাধিকারসূত্রে পাত্তয়া)
 // const human = Object.create(null);
 const human = Object.create(student);
-// console.log(human.job);
+console.log(human.job);
 
 // 4. creat object using constructor (called - Syntactic sugar)
 class Pepole {
@@ -26,4 +26,4 @@ function Manus(name, business) {
     this.business = business;
 }
 const man = new Manus('Faruk', 'business');
-console.log(man);
+// console.log(man);
