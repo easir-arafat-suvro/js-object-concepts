@@ -103,3 +103,46 @@
 ৬. সিম্পল একটা জাভাস্ক্রিপ্ট অবজেক্ট এর কোন একটা প্রোপার্টিকে ভেরিয়েবল হিসেবে ডিক্লেয়ার করার জন্য destructuring ইউজ করো। array এর destructuring করবে আর সেটা করার জন্য তুমি এরে এর সেকেন্ড পজিশন এর উপাদান কে
 destructuring করে 'balance' নামক একটা ভেরিয়েবল এ রাখবে।
 */
+// const tourist = {
+//     id: 101,
+//     name: 'Arafat',
+//     gender: 'Male',
+//     money: 10000,
+//     isGood: true
+// }
+// const { name, money } = tourist;
+// console.log(name, money);
+
+// const age = [10, 20, 50, 60, 80];
+// const secondItem = age[1];
+// console.log(secondItem);
+
+/*
+৭. একদম প্রাথমিক স্টেপ হিসেবে jsonplaceholder এর ওয়েবসাইট থেকে ডাটা fetch করে সেটাকে কনসোল এ দেখাতে হবে। ধরো তুমি তাদের ওয়েবসাইট এ photos এর API এর লিংক কোনটা সেটা জাভাস্ক্রিপ্ট দিয়ে কোড করে সেই ডাটা কনসোল এ দেখতে পারতেছো কিনা। তারপর কয়েকটা কার্ড বানাবে(হতে পারে বুটস্ট্রাপ এর কার্ড) সেগুলা আবার তুমি html দিয়ে ওয়েবসাইট এ ছবি এবং ছবির নিচে ছবির টাইটেল দেখাবে।
+*/
+
+// This is equivalent to /comments?postId=1
+// fetch('https://jsonplaceholder.typicode.com/posts/2/comments')
+// fetch('https://jsonplaceholder.typicode.com/comments?postId=1')
+
+//     .then((response) => response.json())
+//     .then((json) => console.log(json));
+
+// This will return all the posts that belong to the first user
+// fetch('https://jsonplaceholder.typicode.com/posts?userId=1')
+//     .then((response) => response.json())
+//     .then((json) => console.log(json));
+
+// const url = `https://jsonplaceholder.typicode.com/photos?albumId=1`;
+// fetch(url)
+//     .then(res => res.json())
+//     .then(data => photos(data))
+
+// function photos(photos) {
+//     const btn = document.getElementById('dynamicString');
+//     const photo = photos.map(photo => console.log(photo))
+
+// }
+
+
+
